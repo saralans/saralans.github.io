@@ -63,8 +63,10 @@
                 <nav class="s-header__nav">
     
                     <ul class="s-header__menu-links">
-                        <li><a href="#projects">Recent Projects</a></li>
-                        <li><a href="design.html">Design Portfolio</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul> <!-- s-header__menu-links -->
     
                 </nav> <!-- end s-header__nav -->
@@ -89,14 +91,14 @@
                         <div class="s-intro__content-text">
                             <div class="s-intro__content-pretitle text-pretitle">Hi, I'm Sarala Sharma</div>
                             <h1 class="s-intro__content-title">
-                            3rd Year
+                            AI Engineer
                             <br>
-                            Computational and Systems Biology Major 
+                            LLM Applications &amp; Agentic Systems
                             <br>
-                            University of California Los Angeles 
+                            Life Sciences &amp; Healthcare
                             <br>
                             </h1>
-                        </div> <!-- s-intro__content-text srcset="HeadShot.png 1x, HeadShot.png@2x.jpg 2x" alt=""-->
+                        </div> <!-- s-intro__content-text -->
 
                         <div class="s-intro__content-media"> 
                             <div class="s-intro__content-media-inner">                               
@@ -137,17 +139,18 @@
 
                         <div class="s-about__content-main grid-section-split__primary">
                             <p class="attention-getter">
-                                I am a Computational and Systems Biology student seeking research, volunteer, and internship opportunities 
-                                in software and data analysis. My experience analyzing transcriptomic data using Python and R has deepened 
-                                my interest in integrating computational models with biological systems. I am passionate about public health
-                                equity, bioinformatics, and AI, and aspire to become a scientist in these fields.
-
+                                I build AI systems at the intersection of machine learning and life sciences. I'm a UCLA Computational
+                                Biology graduate (2025) currently developing agentic AI tools for clinical medical education at UCLA's
+                                Department of Neurology — including a dual-model patient simulation system presented at the 2025 Medical
+                                Education Day and accepted to the 2026 International Congress of Parkinson's Disease and Movement Disorders.
+                                I also founded Math Nest, a live AI-powered math learning platform. I'm looking for AI engineering roles
+                                in healthcare and biotech where the problems are technically hard and the impact is real.
                             </p>
                         </div> <!-- end s-about__content-main -->
 
                         <div class="s-about__content-btn grid-section-split__bottom">
-                            <a href="#projects" class="btn btn--stroke u-fullwidth smoothscroll">Recent Projects</a>
-                            <a href="design.html" class="btn btn--stroke u-fullwidth">Design Portfolio</a>
+                            <a href="#projects" class="btn btn--stroke u-fullwidth smoothscroll">Projects</a>
+                            <a href="mailto:sarala10sh@gmail.com" class="btn btn--stroke u-fullwidth">Get In Touch</a>
                             <ul class="s-about__social social-list">
                                 <li>
                                     <a href="https://www.linkedin.com/in/saralash/">
@@ -183,52 +186,80 @@
                             </h2>     
                             
                             <p class="lead">
-                                I'm always excited to dive into projects that make a real difference, especially 
-                                when it comes to health and social change. My self-motivation and creativity drives me 
-                                to tackle important challenges and work with others to bring ideas to life.
-                                Whether it’s finding tech-based ways to support public health or building something that 
-                                brings people together, I’m all in. As always, I'm looking for opportunities to 
-                                collaborate with others who are just as passionate about making an impact, so drop 
-                                me a message if you want to work together!
+                                I build things end-to-end — from multi-agent AI systems for clinical research to live SaaS platforms
+                                and computational biology pipelines. Most of my work sits at the intersection of agentic AI and
+                                life sciences, where I care about both the engineering rigor and the real-world impact.
                             </p>
                         </div> <!-- end section-header -->
 
                         <div class="s-projects__content-main grid-section-split__primary">
 
                             <div class="grid-list-items list-items show-ctr">
+
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">BabyBlues App</h3>
+                                        <h3 class="list-items__item-title">AI Patient Actor — Fu Lab, UCLA Neurology</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
-                                        <p>My Int2Transcription Biohackathon 2024 team and I developed a Post Partum Depression (PPD) software application within the public health track. 
-                                            The app targets the eighth of postpartum women experience PPD, a severe and long-lasting depression, and one of the most under-treated health 
-                                            conditions for women. The application will utilize natural language processing to address the scarcity of real-time human resources, alongside
-                                            virtual screening, mental health tracking, and social network features.
+                                        <p>
+                                            A dual-model agentic AI system for clinical medical education. One LLM instance maintains
+                                            a standardized patient persona with Functional Neurological Disorder across open-ended
+                                            conversations with neurology residents; a second acts as an autonomous LLM-as-judge
+                                            evaluator scoring performance against a validated 7-criterion rubric. Designed with a
+                                            blind evaluation architecture to prevent cross-agent anchoring bias. Built in Python
+                                            using the OpenAI API under full IRB compliance.
                                         </p>
-                                        <a href="https://onedrive.live.com/view.aspx?resid=96049EADBC38E472%218184&authkey=!AAXp6DpN4Pbh6jU">View Poster</a>
-                                        <br>
-                                        <a href="https://www.figma.com/proto/PxMgAQkrTyCa3uNKMbX4TZ/Interactive-Input-Text-Fields-using-The-Keyboard!-(Community)-(Copy)?node-id=2-1536&t=Pnsbb79VwERai2dq-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A1536">View Prototype</a>
+                                        <p><strong>Stack:</strong> Python · OpenAI API (GPT-4o-mini) · LLM-as-Judge · IRB-regulated</p>
                                     </div>
                                 </div> <!-- list-item -->
+
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Bruin Books & Bites</h3>
+                                        <h3 class="list-items__item-title">Math Nest — AI Math Learning Platform</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
-                                        <p> My UCLA Hack on the Hill (HOTH XI) team and I developed BruinBites & Books, a UCLA-centric 
-                                            app designed to bond students with similar literary and dining interests, enhancing 
-                                            their university experience through the intersection of books and food. The mobile app 
-                                            was developed on Flutter with the Dart programming language and a Firebase cloud database.
-                                            BruinBites & Book won first place in the mobile development category of this hackathon by 
-                                            ACM Hacks.                            
+                                        <p>
+                                            A live, full-stack AI-powered math learning platform. Features a two-model AI generation
+                                            pipeline with a semantic classifier routing queries to the appropriate model, Redis caching,
+                                            rate limiting, and a multi-tier auth system (OAuth + magic link). Built with React,
+                                            Node.js serverless functions, Supabase PostgreSQL, and Upstash Redis. Deployed on Vercel
+                                            with a custom domain.
                                         </p>
-                                        <a href="https://devpost.com/software/bruinbites-books">View On DevPost</a>
-                                        <br>
-                                        <h6 class="list-items__item-small-title">Pitch:</h6>
-                                        <iframe width="641" height="458" src="https://www.youtube.com/embed/ujm2M3h_L5U" title="Hoth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                                        </iframe>
+                                        <p><strong>Stack:</strong> React · Node.js · PostgreSQL · Redis · Llama 3.3 70B · Vercel</p>
+                                        <a href="https://mathnest.org">Live at mathnest.org →</a>
                                     </div>
+                                </div> <!-- list-item -->
+
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Sarcomere Repair Optimizer</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            A computational pipeline modeling protein assembly sequences for muscle repair optimization.
+                                            Uses a directed graph (NetworkX DiGraph) with edges weighted by published binding affinity
+                                            constants and Arrhenius kinetics. Integrates Boltz-2 (2024) for protein structure prediction.
+                                            Config-driven via YAML with full separation of concerns across ingestion, modeling, simulation,
+                                            and optimization layers. 27-test pytest suite with full acceptance criteria traceability.
+                                        </p>
+                                        <p><strong>Stack:</strong> Python · NetworkX · Boltz-2 · PyTorch-ready · Pytest · Jupyter</p>
+                                    </div>
+                                </div> <!-- list-item -->
+
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Agentic Security Pipeline</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            A multi-layer AI governance architecture built at the Sundai hackathon. A retrieval proxy
+                                            controls what data reaches AI tools before generation; output guardrails filter unsafe
+                                            content; action controls prevent unauthorized downstream behaviors. Designed to protect
+                                            personal productivity apps from sensitive data exposure and cross-prompt injection.
+                                        </p>
+                                        <p><strong>Stack:</strong> Python · Claude SDK · Retrieval Proxy · Hackathon</p>
+                                    </div>
+                                </div> <!-- list-item -->
 
                             </div> <!-- grid-list-items -->
                         </div> <!-- end s-projects__content-main -->
@@ -241,7 +272,144 @@
                 </div> <!-- end s-projects__content -->
 
             </section> <!-- end s-projects -->
-        <!-- # footer 
+            <!-- experience
+            ----------------------------------------------- -->
+            <section id="experience" class="s-about target-section">
+                <div class="row s-about__content width-sixteen-col">
+                    <div class="column grid-block grid-section-split">
+
+                        <div class="section-header grid-section-split__header">
+                            <h2 class="text-display-title">Experience</h2>
+                        </div>
+
+                        <div class="s-about__content-main grid-section-split__primary">
+
+                            <div class="grid-list-items list-items">
+
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Fu Lab, UCLA Department of Neurology</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p><strong>Undergraduate Research Assistant</strong> · May 2025 – Present</p>
+                                        <p>
+                                            Designing and operating a production agentic AI system for clinical medical education under
+                                            Dr. Katherine A. Fu, MD. Dual-model architecture: standardized patient simulator +
+                                            autonomous LLM-as-judge evaluator. IRB-approved longitudinal study (N=20–25) on
+                                            Functional Neurological Disorder diagnosis training. Presented at 2025 Medical Education
+                                            Day at UCLA David Geffen School of Medicine. Abstract accepted to 2026 International
+                                            Congress of Parkinson's Disease and Movement Disorders.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">ARMI / BioFabUSA</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p><strong>Data Analysis Intern</strong> · Sept 2024 – Jan 2025 · Manchester, NH</p>
+                                        <p>
+                                            Built an automated Python + Bash ETL pipeline in a cGMP regulated biomedical manufacturing
+                                            environment, reducing manual data processing by 90% and operationalizing a previously idle
+                                            $50K growth media analyzer. Applied Quality by Design (QbD) principles within an Agile
+                                            development framework. Produced technical documentation enabling independent cross-team adoption.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Mitra Lab, UCLA Dept. of Molecular, Cell &amp; Developmental Biology</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p><strong>Undergraduate Research Assistant</strong> · Feb 2024 – Apr 2024</p>
+                                        <p>
+                                            Analyzed high-throughput sequencing data using Bash, R, and Python on the Hoffman2 HPC cluster.
+                                            Performed peak annotations of histone modification data from chromatin profiling under Dr. Mithun Mitra.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div> <!-- grid-list-items -->
+                        </div>
+
+                    </div>
+                </div>
+            </section> <!-- end s-experience -->
+
+            <!-- publications
+            ----------------------------------------------- -->
+            <section id="publications" class="s-projects target-section">
+                <div class="row s-projects__content width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+
+                        <div class="section-header grid-section-split__header">
+                            <h2 class="text-display-title">Publications &amp; Talks</h2>
+                        </div>
+
+                        <div class="s-projects__content-main grid-section-split__primary">
+                            <div class="grid-list-items list-items">
+
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">2026 International Congress of Parkinson's Disease and Movement Disorders</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p><strong>Abstract Accepted · 2026</strong></p>
+                                        <p>
+                                            Abstract accepted for presentation on the AI patient actor system developed at the Fu Lab —
+                                            LLM-based standardized patient simulation for neurology resident training on Functional
+                                            Neurological Disorder diagnosis.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">UCLA David Geffen School of Medicine — Medical Education Day</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p><strong>Conference Presentation · 2025</strong></p>
+                                        <p>
+                                            Presented prototype AI patient actor system to physician-scientist and medical faculty
+                                            audience at the 2025 Medical Education Day at UCLA David Geffen School of Medicine.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section> <!-- end s-publications -->
+
+            <!-- contact
+            ----------------------------------------------- -->
+            <section id="contact" class="s-about target-section">
+                <div class="row s-about__content width-sixteen-col">
+                    <div class="column grid-block grid-section-split">
+
+                        <div class="section-header grid-section-split__header">
+                            <h2 class="text-display-title">Get In Touch</h2>
+                        </div>
+
+                        <div class="s-about__content-main grid-section-split__primary">
+                            <p class="attention-getter">
+                                I'm looking for AI engineering roles in healthcare and biotech — especially teams working on
+                                agentic systems, LLM applications, or AI tooling for clinical and life sciences workflows.
+                                Open to remote or hybrid. Reach out at
+                                <a href="mailto:sarala10sh@gmail.com">sarala10sh@gmail.com</a> or connect on
+                                <a href="https://www.linkedin.com/in/saralash/">LinkedIn</a>.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section> <!-- end s-contact -->
+
+        <!-- # footer
         ================================================== -->
         <footer class="s-footer">
             <div class="row s-footer__content">               
@@ -249,13 +417,10 @@
                     <h3>Site Links</h3>
                     <ul class="link-list">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="design.html">Design Portfolio</a></li>
-                        <!--
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="blog.html">Journal</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a></li>
-                        -->
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 <!--
                 <div class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter">
@@ -296,8 +461,8 @@
                 </div>
                 <div class="column xl-6 lg-12">
                     <p class="ss-copyright">
-                        <span>© Copyright Monica 2022</span> 
-                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">ThemeWagon</a></span>
+                        <span>© Sarala Sharma 2026</span>
+                        <span>sarala10sh@gmail.com</span>
                     </p>
                 </div>
 

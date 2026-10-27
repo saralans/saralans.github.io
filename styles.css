@@ -4000,7 +4000,16 @@ iframe {
 	fill: var(--color-3);
 }
 
-/* ------------------------------------------------------------------- 
+.s-about .list-items__item-title,
+.s-about .list-items__item-small-title {
+    color: var(--color-3);
+}
+
+.s-about .list-items__item-text p {
+    color: var(--color-3);
+}
+
+/* -------------------------------------------------------------------
  * responsive:
  * about
  * ------------------------------------------------------------------- */
